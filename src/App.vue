@@ -1,18 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <buttonPlat></buttonPlat>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
-
+import { Component, Vue } from "vue-property-decorator";
+import buttonPlat from "./views/button.vue";
 @Component({
-  components: {
-    HelloWorld,
-  },
+  components: { buttonPlat },
 })
 export default class App extends Vue {}
 </script>
