@@ -37,7 +37,7 @@ export default class lsButton extends Vue {
   .ls-button--info {
     background-color: rgb(163, 191, 233);
   }
-  .ls-button--wraning {
+  .ls-button--warning {
     background-color: rgb(221, 219, 77);
   }
   .ls-button--danger {

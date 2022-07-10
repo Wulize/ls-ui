@@ -1,7 +1,9 @@
 import lsButton from "./lsButton";
+import lsLink from "./lsLink";
 import { VueConstructor } from "vue";
 const components = [
-    lsButton
+    lsButton,
+    lsLink
 ];
 
 const install = function (Vue: VueConstructor) {
