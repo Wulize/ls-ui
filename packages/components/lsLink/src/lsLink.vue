@@ -11,7 +11,7 @@
 </template>
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import { buttonType } from "../../type";
+import { buttonType } from "../../../type";
 @Component({ name: "lsLink" })
 export default class lsLink extends Vue {
   @Prop() public type!: buttonType;

@@ -1,0 +1,22 @@
+{
+  "name": "lsui",
+  "version": "1.0.0",
+  "description": "vue 组件库发包",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wulize/ls-ui.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "wulize02",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wulize/ls-ui/issues"
+  },
+  "homepage": "https://github.com/Wulize/ls-ui#readme"
+}

@@ -1,5 +1,5 @@
-import lsButton from "./lsButton";
-import lsLink from "./lsLink";
+import lsButton from "./components/lsButton";
+import lsLink from "./components/lsLink";
 import { VueConstructor } from "vue";
 const components = [
     lsButton,
