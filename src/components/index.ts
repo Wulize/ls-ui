@@ -12,5 +12,6 @@ const install = function (Vue: VueConstructor) {
 //导出instal方法以及所有组件
 export default {
     install,
-    lsButton
+    lsButton,
+    lsLink
 }
