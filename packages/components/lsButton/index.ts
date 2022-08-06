@@ -1,7 +1,6 @@
-import VueConstructor from 'vue';
 import lsButton from './src/lsButton.vue';
-
-(lsButton as any).install = function (Vue: VueConstructor) {
+// eslint-disable-next-line
+(lsButton as any).install = function (Vue: any) {
     (Vue as any).component(lsButton.name, lsButton)
 }
 
